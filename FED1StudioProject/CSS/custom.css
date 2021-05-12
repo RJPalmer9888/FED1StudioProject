@@ -1,0 +1,33 @@
+﻿body {
+    background-color: darkgray;
+    color:darkblue;
+    stroke-width: 50;
+    stroke: black;
+}
+h1{
+    font-family:'Courier New';
+    font-weight: bold;
+    font-size: 28px;
+}
+h2 {
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: underline;
+    color: black;
+}
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+#title{
+    font-family: Impact;
+    font-weight: bold;
+    font-size: 40px;
+    color:firebrick;
+}
+.name {
+    font-family: 'Courier New';
+    font-weight: bolder;
+    font-size: 26px;
+}
