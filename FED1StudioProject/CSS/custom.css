@@ -38,8 +38,9 @@ nav a {
 a:hover {
     color: lightblue;
     text-decoration: underline;
-    background-color: darkblue;
+
 }
+
 
 nav a:hover, .selected {
     background-color: greenyellow;
@@ -91,4 +92,34 @@ article.top {
     border-bottom: 2px solid black;
     border-left: 2px solid black;
     border-right: 2px solid black;
+}
+
+header img{
+    display: inline;
+    vertical-align: baseline;
+    width: 80px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#slogan{
+    margin-top: 10px;
+    display:block;
+}
+
+header article{
+    display:inline-block;
+    margin-bottom:-13px;
+    margin-left:4px;
+}
+
+header h1{
+    display:inline;
+    margin-bottom:20px;
+    padding-bottom:20px;
+    
+}
+
+header sidebar{
+    float:left;
 }

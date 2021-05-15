@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\custom.css" />
+    <Content Include="Images\830294403417e58eed5e566210ed8990.jpg" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
     <Content Include="Classes.html" />
@@ -87,7 +88,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
     <Folder Include="JS\" />
   </ItemGroup>
   <PropertyGroup>
