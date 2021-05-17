@@ -68,7 +68,25 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\custom.css" />
+    <Content Include="favicon-32x32.png" />
+    <Content Include="favicon.ico" />
+    <Content Include="Images\2thumbs.jpg" />
     <Content Include="Images\830294403417e58eed5e566210ed8990.jpg" />
+    <Content Include="Images\classesbig.jpg" />
+    <Content Include="Images\facebook.png" />
+    <Content Include="Images\guns.jpg" />
+    <Content Include="Images\img1.png" />
+    <Content Include="Images\linkedin.png" />
+    <Content Include="Images\pointy.jpg" />
+    <Content Include="Images\shotguns.jpg" />
+    <Content Include="Images\shush.jpg" />
+    <Content Include="Images\singletitan.jpg" />
+    <Content Include="Images\stancebg.jpg" />
+    <Content Include="Images\stasis.jpg" />
+    <Content Include="Images\teamplay.jpg" />
+    <Content Include="Images\twitter.png" />
+    <Content Include="Images\victory.jpg" />
+    <Content Include="Images\waveydead.jpg" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
     <Content Include="Classes.html" />

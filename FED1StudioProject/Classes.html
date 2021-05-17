@@ -4,9 +4,21 @@
     <meta charset="utf-8" />
     <title>CCC Classes</title>
     <link href="CSS/custom.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" />
 </head>
 <body>
     <header>
+        <div class="row">
+            <div class="column">
+                <img src="Images/facebook.png" width="40" />
+            </div>
+            <div class="column">
+                <img src="Images/twitter.png" width="40" />
+            </div>
+            <div class="column">
+                <img src="Images/linkedin.png" width="40" />
+            </div>
+        </div>
         <sidebar>
             <a href="index.html"><img src="Images/830294403417e58eed5e566210ed8990.jpg" id="logo" /></a>
         </sidebar>
@@ -39,20 +51,121 @@
     <main>
         <h2> Our Classes </h2>
         <!-- Additional classes to be added and scheduled -->
-        <dl>
-            <dt class="name"> Intro to Guardian </dt>
-            <dt> Titan 101 </dt>
-            <dt> Warlock 101 </dt>
-            <dt> Hunter 101 </dt>
-            <dd> Learn the ins and outs of your guardian's kit and how best to absolutely and unrelentingly abuse every little broken aspect about them. </dd>
-        </dl>
-        <dl>
-            <dt class="name"> Winning the Game </dt>
-            <dt> Stasis 400 </dt>
-            <dt> Shotguns 400 </dt>
-            <dt> Hunter 400 </dt>
-            <dd> After learning the basics, take the next step and use the most oppressively overpowered gear to win against any odds, no matter how stacked they may be. </dd>
-        </dl>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="Images/teamplay.jpg" alt="Teamplay" class="classpic">
+                    <div class="container">
+                        <h4><b>Teamplay</b></h4>
+                        <p>Intro to Teamwork</p>
+                        <p>Build Synergy</p>
+                        <p>Building a Playbook</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="Images/classesbig.jpg" alt="Intro to Guardian" class="classpic" height="214">
+                    <div class="container">
+                        <h4><b>Intro to Guardian</b></h4>
+                        <p>Titan 101</p>
+                        <p>Warlock 101 </p>
+                        <p>Hunter 101 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="Images/guns.jpg" alt="guns" class="classpic">
+                    <div class="container">
+                        <h4><b>Weapons</b></h4>
+                        <p>Weapon Archetypes</p>
+                        <p>Archetype Roles</p>
+                        <p>Playing Off Meta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="Images/stasis.jpg" alt="Stasis" class="classpic">
+                    <div class="container">
+                        <h4><b>Stasis</b></h4>
+                        <p>Slowing, Freezing, and Shattering</p>
+                        <p>Map Control</p>
+                        <p>Counterplay</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="Images/shotguns.jpg" alt="Shotguns" class="classpic">
+                    <div class="container">
+                        <h4><b>Shotguns</b></h4>
+                        <p>Walking Forward</p>
+                        <p>Right Clicking</p>
+                        <p>Left Clicking</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="Images/victory.jpg" alt="Victory" class="classpic" height="214">
+                    <div class="container">
+                        <h4><b>Winning the Game</b></h4>
+                        <p>Stasis 400</p>
+                        <p>Shotguns 400</p>
+                        <p>Hunter 400</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 class="classtabletitle">Teamplay - Class List</h3>
+        <div class="classtable">
+            <table>
+                <tr>
+                    <th>#</th>
+                    <th>Class</th>
+                    <th>Instructor</th>
+                    <th>Meets</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Intro to Teamwork</td>
+                    <td>Scott Sawyer</td>
+                    <td>Monday 8am-10am</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Build Synergy</td>
+                    <td>Scott Sawyer</td>
+                    <td>Monday 10:30am-12:30pm</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Building a Playbook</td>
+                    <td>Scott Sawyer</td>
+                    <td>Monday 1pm-3pm</td>
+                </tr>
+            </table>
+        </div>
     </main>
+    <footer>
+        <section>
+            &copy; 2021 Ryan Palmer
+            <div class="row">
+                <div class="column">
+                    <img src="Images/facebook.png" width="40" />
+                </div>
+                <div class="column">
+                    <img src="Images/twitter.png" width="40" />
+                </div>
+                <div class="column">
+                    <img src="Images/linkedin.png" width="40" />
+                </div>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
