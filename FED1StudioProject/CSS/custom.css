@@ -17,7 +17,7 @@ body {
     background-color: #BF2A2A;
     font-family: 'Lato', sans-serif;
     background-image: url(../Images/img1.png);
-    background-size: 110em;
+    background-size: 120em;
     background-repeat: repeat-y;
     background-origin: content-box;
     font-size: 16px;
@@ -386,4 +386,59 @@ footer .column {
     padding-left: 85px;
     font-size:3em;
     padding-bottom:0px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .9);
+    overflow-x: hidden;
+    padding-top: 5em;
+    transition: .5s;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 1.5em;
+        color: #818181;
+        display: block;
+        transition: .3s;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+.close-btn {
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    font-size: 2.5em;
+    margin-left: 50px;
+}
+
+.button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgba(0, 0, 0, .5);
+    height: 100%;
+    width: 2em;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.vertical-text {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    writing-mode: vertical-lr;
+    color: #fff;
+    font-weight: bold;
 }

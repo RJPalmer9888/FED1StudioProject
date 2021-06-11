@@ -121,37 +121,167 @@
                 </div>
             </div>
         </div>
-        <h3 class="classtabletitle">Teamplay - Class List</h3>
-        <div class="classtable">
-            <table>
-                <tr>
-                    <th>#</th>
-                    <th>Class</th>
-                    <th>Instructor</th>
-                    <th>Meets</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Intro to Teamwork</td>
-                    <td>Scott Sawyer</td>
-                    <td>Monday 8am-10am</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Build Synergy</td>
-                    <td>Scott Sawyer</td>
-                    <td>Monday 10:30am-12:30pm</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Building a Playbook</td>
-                    <td>Scott Sawyer</td>
-                    <td>Monday 1pm-3pm</td>
-                </tr>
+
+            <table id="simpleTable">
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Class</th>
+                        <th>Instructor</th>
+                        <th>Meets</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Teamplay</td>
+                        <td>Intro to Teamwork</td>
+                        <td>Scott Sawyer</td>
+                        <td>Monday 8am-10am</td>
+                    </tr>
+                    <tr>
+                        <td>Teamplay</td>
+                        <td>Build Synergy</td>
+                        <td>Scott Sawyer</td>
+                        <td>Monday 10:30am-12:30pm</td>
+                    </tr>
+                    <tr>
+                        <td>Teamplay</td>
+                        <td>Building a Playbook</td>
+                        <td>Scott Sawyer</td>
+                        <td>Monday 1pm-3pm</td>
+                    </tr>
+                    <tr>
+                        <td>Intro to Guardian</td>
+                        <td>Titan 101</td>
+                        <td>Zach Morris</td>
+                        <td>Monday 8am-10am</td>
+                    </tr>
+                    <tr>
+                        <td>Intro to Guardian</td>
+                        <td>Warlock 101</td>
+                        <td>Zach Morris</td>
+                        <td>Monday 10:30am-12:30pm</td>
+                    </tr>
+                    <tr>
+                        <td>Intro to Guardian</td>
+                        <td>Hunter 101</td>
+                        <td>Zach Morris</td>
+                        <td>Monday 1pm-3pm</td>
+                    </tr>
+                    <tr>
+                        <td>Weapons</td>
+                        <td>Weapon Archetypes</td>
+                        <td>Jake Fry</td>
+                        <td>Monday 8am-10am</td>
+                    </tr>
+                    <tr>
+                        <td>Weapons</td>
+                        <td>Archetype Roles</td>
+                        <td>Jake Fry</td>
+                        <td>Monday 10:30am-12:30pm</td>
+                    </tr>
+                    <tr>
+                        <td>Weapons</td>
+                        <td>Playing Off Meta</td>
+                        <td>Jake Fry</td>
+                        <td>Monday 1pm-3pm</td>
+                    </tr>
+                    <tr>
+                        <td>Stasis</td>
+                        <td>Intro to Teamwork</td>
+                        <td>Scott Sawyer</td>
+                        <td>Monday 8am-10am</td>
+                    </tr>
+                    <tr>
+                        <td>Stasis</td>
+                        <td>Build Synergy</td>
+                        <td>Scott Sawyer</td>
+                        <td>Monday 10:30am-12:30pm</td>
+                    </tr>
+                    <tr>
+                        <td>Stasis</td>
+                        <td>Building a Playbook</td>
+                        <td>Scott Sawyer</td>
+                        <td>Monday 1pm-3pm</td>
+                    </tr>
+                    <tr>
+                        <td>Shotguns</td>
+                        <td>Intro to Teamwork</td>
+                        <td>Scott Sawyer</td>
+                        <td>Monday 8am-10am</td>
+                    </tr>
+                    <tr>
+                        <td>Shotguns</td>
+                        <td>Build Synergy</td>
+                        <td>Scott Sawyer</td>
+                        <td>Monday 10:30am-12:30pm</td>
+                    </tr>
+                    <tr>
+                        <td>Shotguns</td>
+                        <td>Building a Playbook</td>
+                        <td>Scott Sawyer</td>
+                        <td>Monday 1pm-3pm</td>
+                    </tr>
+                    <tr>
+                        <td>Winning the Game</td>
+                        <td>Intro to Teamwork</td>
+                        <td>Scott Sawyer</td>
+                        <td>Monday 8am-10am</td>
+                    </tr>
+                    <tr>
+                        <td>Winning the Game</td>
+                        <td>Build Synergy</td>
+                        <td>Scott Sawyer</td>
+                        <td>Monday 10:30am-12:30pm</td>
+                    </tr>
+                    <tr>
+                        <td>Winning the Game</td>
+                        <td>Building a Playbook</td>
+                        <td>Scott Sawyer</td>
+                        <td>Monday 1pm-3pm</td>
+                    </tr>
+                </tbody>
             </table>
+        </div>
+        
+        <div id="admin-nav" class="sidenav">
+            <a href="javascript:void(0)" class="close-btn" onclick="closeAdminNav()"> &times;</a>
+            <a href="#Teamplay">Teamplay</a>
+            <a href="#Guardian">Intro to Guardian</a>
+            <a href="#Weapons">Weapons</a>
+            <a href="#Stasis">Stasis</a>
+            <a href="#Shotguns">Shotguns</a>
+            <a href="#Winning">Winning the Game</a>
         </div>
     </main>
     <footer>
+        <div id="admin-btn" class="button" onclick="openAdminNav()">
+            <span class="vertical-text">CLASS LISTS</span>
+        </div>
+
+        <script>
+            function openAdminNav() {
+                document.getElementById("admin-btn").style.display = "none";
+                document.getElementById("admin-nav").style.width = "250px";
+            }
+
+            function closeAdminNav() {
+                document.getElementById("admin-btn").style.display = "block";
+                document.getElementById("admin-nav").style.width = "0";
+            }
+        </script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="//cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+        <script>
+            $(function () {
+                $('#simpleTable').DataTable();
+            });
+        </script>
+        <!-- Bootstrap 3.3.7 minified JavaScript -->
+
+
         <section>
             &copy; 2021 Ryan Palmer
             <div class="row">
