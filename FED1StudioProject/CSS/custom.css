@@ -442,3 +442,28 @@ footer .column {
     color: #fff;
     font-weight: bold;
 }
+
+.thumb {
+    cursor: pointer;
+}
+
+#lightbox-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    text-align: center;
+    padding-top: 4em;
+    display: none;
+}
+
+    #lightbox-container p {
+        color: #fff;
+    }
+
+#lightbox-content img {
+    border: 10px solid gray;
+    margin: auto;
+}

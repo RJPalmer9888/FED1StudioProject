@@ -87,6 +87,7 @@
     <Content Include="Images\twitter.png" />
     <Content Include="Images\victory.jpg" />
     <Content Include="Images\waveydead.jpg" />
+    <Content Include="JS\jquery.js" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
     <Content Include="Classes.html" />
@@ -105,9 +106,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="JS\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
