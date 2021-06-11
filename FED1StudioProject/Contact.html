@@ -8,27 +8,27 @@
 </head>
 <body>
 
-        <header>
-            <div class="row">
-                <div class="column">
-                    <a href="https://www.facebook.com/learnwithus" target="_blank"><img src="Images/facebook.png" width="40" /></a>
-                </div>
-                <div class="column">
-                    <a href="https://twitter.com/weteachstuff?lang=en" target="_blank"><img src="Images/twitter.png" width="40" /></a>
-                </div>
-                <div class="column">
-                    <a href="https://www.linkedin.com/learnwithus" target="_blank"><img src="Images/linkedin.png" width="40" /></a>
-                </div>
+    <header>
+        <div class="row">
+            <div class="column">
+                <a href="https://www.facebook.com/learnwithus" target="_blank"><img src="Images/facebook.png" width="40" /></a>
             </div>
-            <sidebar>
-                <a href="index.html"><img src="Images/830294403417e58eed5e566210ed8990.jpg" id="logo" /></a>
-            </sidebar>
-            <article>
-                <h1> Crucible Crash Course</h1>
-                <p id="slogan"> Improving today at the cost of tomorrow. </p>
-            </article>
+            <div class="column">
+                <a href="https://twitter.com/weteachstuff?lang=en" target="_blank"><img src="Images/twitter.png" width="40" /></a>
+            </div>
+            <div class="column">
+                <a href="https://www.linkedin.com/learnwithus" target="_blank"><img src="Images/linkedin.png" width="40" /></a>
+            </div>
+        </div>
+        <sidebar>
+            <a href="index.html"><img src="Images/830294403417e58eed5e566210ed8990.jpg" id="logo" /></a>
+        </sidebar>
+        <article>
+            <h1> Crucible Crash Course</h1>
+            <p id="slogan"> Improving today at the cost of tomorrow. </p>
+        </article>
 
-        </header>
+    </header>
     <nav>
         <ul>
             <li>
@@ -75,6 +75,39 @@
             <dt> LinkedIn </dt>
             <dd> <a href="https://www.linkedin.com/learnwithus" target="_blank">linkedin.com/learnwithus</a> </dd>
         </dl>
+        <form action="#" method="get" onsubmit="validateForm(event)">
+            <div class="col-sm-offset-2 col-sm-8">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input type="text" id="tbName" name="name" class="form-control" placeholder="Name" />
+                        <span id="rfvName" class="invalid"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input type="text" id="tbEmail" name="email" class="form-control" placeholder="Email" />
+                        <span id="rfvEmail" class="invalid"></span>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <input type="text" id="tbSubject" name="subject" class="form-control" placeholder="Subject" />
+                        <span id="rfvSubject" class="invalid"></span>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <textarea id="tbMessage" name="message" class="form-control" placeholder="Message"></textarea>
+                        <span id="rfvMessage" class="invalid"></span>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-success" value="Send Message" />
+                    </div>
+                </div>
+            </div>
+        </form>
     </main>
     <footer>
         <section>
@@ -92,5 +125,7 @@
             </div>
         </section>
     </footer>
+    <!-- Scripts -->
+    <script src="js/validation.js"></script>
 </body>
 </html>

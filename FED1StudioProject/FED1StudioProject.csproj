@@ -88,6 +88,7 @@
     <Content Include="Images\victory.jpg" />
     <Content Include="Images\waveydead.jpg" />
     <Content Include="JS\jquery.js" />
+    <Content Include="JS\validation.js" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
     <Content Include="Classes.html" />

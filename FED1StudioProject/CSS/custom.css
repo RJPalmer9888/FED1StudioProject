@@ -467,3 +467,8 @@ footer .column {
     border: 10px solid gray;
     margin: auto;
 }
+
+.invalid {
+    color: red;
+    font-style: italic;
+}
